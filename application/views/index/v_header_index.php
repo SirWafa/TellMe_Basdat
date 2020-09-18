@@ -63,7 +63,7 @@
 
                     <!-- Navbar Brand -->
                     <a href="index.html" class="navbar-brand">
-                        <img class="navbar-brand-icon mr-0 mr-md-8pt" src="assets/images/logo/white-100@2x.png" width="30" alt="Tutorio">
+                        <img class="navbar-brand-icon mr-0 mr-md-8pt" src="<?php echo base_url('assets/tealdark/images/logo/white-100@2x.png')?>" width="30" alt="Tutorio">
                         <span class="d-none d-md-block">Tutorio</span>
                     </a>
 
@@ -84,7 +84,7 @@
                             </a>
                         </li>
                         <li class="d-none d-sm-flex nav-item">
-                            <a href="pricing.html" class="btn btn-accent">Get started</a>
+                            <a href="index.php/Welcome/login" class="btn btn-accent">LOGIN</a>
                         </li>
                     </ul>
 
